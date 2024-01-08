@@ -48,3 +48,41 @@ margin-bottom: 0%;
     margin-top: 0%;
 
 }
+/* <!-- Discount Section --> */
+.discount{
+    width: 800px;
+    margin: auto;
+    margin-top: 180px;
+}
+.discount-title-one{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+}
+.discount-title-two{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 0;
+}
+.discount-three{
+color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 0;
+}
+
+
