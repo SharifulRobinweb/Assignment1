@@ -208,6 +208,90 @@ text-transform: uppercase;
 justify-content: center;
 border-radius: 8px;
 }
+/* 
+comming-Soon Portion */
+
+.comming-soon{
+width: 1320px;
+height: 482px;
+display: flex;
+justify-content: center;
+}
+.best-offer{
+    width: 393px;
+    margin: 0;
+    margin-right: 70px;
+    margin-top: 40px;
+}
+.best-offer-title{
+color: #F00;
+/* text-align: center; */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 0;
+}
+.comming-soon-title{
+color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-top: 0;
+margin-bottom: 0;
+}
+.best-offer-description{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+margin-top: 0;
+margin-bottom: 0;
+}
+.red-image{
+width: 364px;
+height: 363px;
+flex-shrink: 0;
+border-radius: 463px;
+border: 15px solid #F00;
+}
+.red-image img{
+width: 364.844px;
+height: 364.844px;
+flex-shrink: 0;
+border-radius: 364.844px;
+background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
+}
+.twenty-four{
+    width: 276px;
+    margin-left: 118px;
+    margin-top: 40px;
+}
+.twenty-four-title{
+color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 0;
+}
+.twenty-four-description{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+margin-top: 0;
+margin-bottom: 0;
+}
 
 
 
