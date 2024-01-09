@@ -422,94 +422,48 @@ flex-shrink: 0;
     margin-left: 336px;
 }
 /* Footer Section */
-.footer{
-width: 1600px;
-height: 609px;
-margin: auto;
-margin-top: 120px;
-background: #070211;
-display: flex;
-justify-content: space-between;
-
-
+section{
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+    margin: auto;
 }
 .footer-content{
-    width: 1600px;
-    display: flex;
-    justify-content: space-around;
-    
-}
-
-.footer-left h3{
-    width: 375px;
-    height: 80px;
-color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px; /* 166.667% */
-margin-top: 120px;
-/* margin-left: 140px; */
-
-}
-.footer-right{
-    width: 195px;
-    height: 40px;
-color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px; /* 166.667% */
-margin-top: 120px;
-margin-left: 50px;
-
-}
-/* .footer-right-text{
-    width: 211px;
-    height: 40px;
-color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px; /* 166.667% */
-display: flex;
-justify-content: space-between;
-} */
-.icon-content{
-    margin-top: 298px;
-    margin-right: 896px;
-    /* display: flex; */
-    display: block;
-}
-.icon{
-width: 64px;
-height: 64px;
-flex-shrink: 0;
-margin-top: 100px;
-}
-.footer-footer-content{
     display: flex;
     justify-content: space-between;
 }
-.reserved{
+.footer-content p{
     color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+    margin-top: 120px;
+    margin-left: 140px;
+    width: 375px;
+    margin-right: 0px;
 }
-.unsubscribe{
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-.icon-img-div{
+
+
+.footer-icone{
     display: flex;
+justify-content: center;
+gap: 24px;
+margin-top: 60px;
+}
+.footer-reserved{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-reserved p{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 130px;
+margin-left: 140px;
+margin-right: 140px;
 }
