@@ -481,15 +481,14 @@ justify-content: space-between;
 .icon-content{
     margin-top: 298px;
     margin-right: 896px;
-    display: flex;
+    /* display: flex; */
+    display: block;
 }
 .icon{
 width: 64px;
 height: 64px;
 flex-shrink: 0;
-.icon{
-    align-items: center;
-}
+margin-top: 100px;
 }
 .footer-footer-content{
     display: flex;
@@ -510,4 +509,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+}
+.icon-img-div{
+    display: flex;
 }
