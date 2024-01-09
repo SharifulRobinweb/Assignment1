@@ -294,7 +294,9 @@ margin-bottom: 0;
 }
 /* Grid-Section */
 .grid-section{
-
+margin-top: 120px;
+/* width: 1600px;
+height: 7335px; */
 }
 .grid-content{
 width: 896px;
@@ -336,6 +338,18 @@ margin-bottom: 0;
     margin-top: 48px;
     gap: 24px;
 }
+.grid-item{
+width: 424px;
+height: 450px;
+border-radius: 16px;
+background: url(<path-to-image>), lightgray 0px -35.755px / 100% 142.115% no-repeat;
+margin-left: 0;
+}
+.grid-item > img{
+    height: 100%;
+    width: 100%;
+}
+
 
 
 
