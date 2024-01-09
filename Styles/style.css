@@ -292,6 +292,50 @@ line-height: 32px; /* 160% */
 margin-top: 0;
 margin-bottom: 0;
 }
+/* Grid-Section */
+.grid-section{
+
+}
+.grid-content{
+width: 896px;
+
+}
+.grid-title{
+color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 0;
+}
+.grid-title-two{
+color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-top: 16px;
+margin-bottom: 0;
+}
+.grid-description{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+margin-top: 22px;
+margin-bottom: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 48px;
+    gap: 24px;
+}
 
 
 
